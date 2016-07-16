@@ -1,0 +1,5 @@
+text: #494C48
+text-backing: #F4FFF1
+light: #B4FFA5
+dark: #4B7F40
+alternate: #C3CCC1

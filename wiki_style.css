@@ -1,0 +1,101 @@
+#main {
+    background-color: #4B7F40;
+    color: #494C48;
+    font-size: 16px;
+}
+
+#main-section {
+    background-color: #C3CCC1;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#search-fields {
+    background-color: #B4FFA5;
+    border-radius: 10px;
+}
+
+.search-bar {
+    padding: 5px;
+
+}
+
+#searchInput {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #F4FFF1;
+    color: #494C48;
+    width: 100%;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+#searchSubmit {
+    background-color: inherit;
+}
+
+#randomButton {
+    background-color: inherit;
+}
+
+#results-area {
+    margin: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.article {
+    background-color: #F4FFF1;
+    border-radius: 10px;
+}
+
+.article-title {
+    padding-left: 15px;
+
+}
+
+.article-blurb {
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.top{
+    color: #F4FFF1;
+    text-align: center;
+}
+
+.end {
+    color: #F4FFF1;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    #main-section {
+        margin: 10px;
+    }
+
+
+}

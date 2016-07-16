@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="wiki_style.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type =  "text/javascript" src = "wiki_js.js"></script>
+</head>
+<body id = "main">
+<div class = "container-fluid">
+    <div class = "top">
+        <h1>Search Wikipedia</h1>
+    </div>
+<div id = "main-section">
+    <div id = "search-fields" class = "row">
+        <div class = "col-md-8">
+            <div class = " search-bar inner-addon left-addon">
+            <i class="glyphicon glyphicon-search"></i>
+            <input id = "searchInput" type = "text">
+            </div>
+        </div>
+        <div class = "col-md-2">
+            <button id = "searchSubmit" class = "btn btn-block">Submit</button>
+        </div>
+        <div class = "col-md-2">
+            <button id = "randomButton" class = "btn btn-block">Random Article</button>
+        </div>
+    </div>
+    <div id = "results-area">
+    </div>
+</div>
+    <div class = "end">
+        <p>Coded by Travis Arbon</p>
+    </div>
+</div>
+</body>
+</html>
